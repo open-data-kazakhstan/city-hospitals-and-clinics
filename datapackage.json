@@ -1,0 +1,30 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "med_institutions.csv",
+            "profile": "tabular-data-resource",
+            "name": "med_institutions",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Region",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2022",
+                        "type": "integer",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
