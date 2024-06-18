@@ -1,5 +1,8 @@
 # City Hospitals and Clinics
 
+## Description
+Main data stored in `data/med_institutions_rate.csv` where column Med-institution is about number of med institutions in this region, column Med-institution-rate is number of med intitutions for 10000 people defined by standarts of [WHO](https://www.who.int/data/gho/indicator-metadata-registry/imr-details/3120)
+
 ## Installation
 
 To get started with the project, follow these steps:
@@ -33,6 +36,7 @@ Medical institution data is sourced from [gender.stat.gov.kz](https://gender.sta
 
 - `archive/source.xls`: Raw data of medical institutions by region from 2000 to 2022.
 - `data/med_institutions.csv`: Cleaned version containing data only for 2022 and translated to English.
+- `archive/city_population.csv`: Data that was taken from repository [city-population](https://github.com/open-data-kazakhstan/city-population)
 
 ## Scripts
 
